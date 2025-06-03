@@ -10,26 +10,26 @@ export default function Projects() {
           <ul className="gallery">
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/HMC_1.jpg`}
-                alt="Imagem do jogo Histórias Mal Contadas 1"
+                src={`https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO/blob/main/assets/images/tela_inicial.png?raw=true`}
+                alt="Imagem da tela inicial do jogo HMC"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/HMC_2.jpg`}
-                alt="Imagem do jogo Histórias Mal Contadas 2"
+                src={`https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO/blob/main/assets/images/tela_unknow.png?raw=true`}
+                alt="Imagem da tela de comando desconhecido do jogo HMC"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/HMC_3.jpg`}
-                alt="Imagem do jogo Histórias Mal Contadas 3"
+                src={`https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO/blob/main/assets/images/level_two.png?raw=true`}
+                alt="Imagem da tela da segunda fase do jogo HMC"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/HMC_4.jpg`}
-                alt="Imagem do jogo Histórias Mal Contadas 4"
+                src={`https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO/blob/main/assets/images/game_over.png?raw=true`}
+                alt="Imagem da tela de fim do jogo HMC"
               />
             </li>
           </ul>
@@ -56,26 +56,26 @@ export default function Projects() {
           <ul className="gallery">
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/KachingSoftware_1.jpg`}
-                alt="Imagem do sistema Kaching Software 1"
+                src={`https://github.com/brenoASantana/kaching/blob/main/view/css/img/telaInicial.png?raw=true`}
+                alt="Imagem da tela de cadastro de usuário do sistema Kaching Software"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/KachingSoftware_2.jpg`}
-                alt="Imagem do sistema Kaching Software 2"
+                src={`https://github.com/brenoASantana/kaching/blob/main/view/css/img/cadastroUser.png?raw=true`}
+                alt="Imagem da tela de pesquisa de usuário do sistema Kaching Software"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/KachingSoftware_3.jpg`}
-                alt="Imagem do sistema Kaching Software 3"
+                src={`https://github.com/brenoASantana/kaching/blob/main/view/css/img/apagarUser.png?raw=true`}
+                alt="Imagem da tela de exclusão de usuário do sistema Kaching Software"
               />
             </li>
             <li>
               <img
-                src={`${process.env.PUBLIC_URL}/assets/img/KachingSoftware_4.jpg`}
-                alt="Imagem do sistema Kaching Software 4"
+                src={`https://github.com/brenoASantana/kaching/blob/main/view/css/img/atualizarUser.png?raw=true`}
+                alt="Imagem da tela de atualização de usuário do sistema Kaching Software"
               />
             </li>
           </ul>

@@ -1,14 +1,15 @@
-// Em src/index.js ou em App.jsx, no topo:
-import "../public/assets/css/reset.css";
-import "../public/assets/css/typography.css";
-import "../public/assets/css/layout.css";
-import "../public/assets/css/buttons.css";
-import "../public/assets/css/gallery.css";
-import "../public/assets/css/lists.css";
-import "../public/assets/css/utils.css";
-import "../public/assets/css/themes.css";
-import "../public/assets/css/media-queries.css";
+// CSS
+import "../src/assets/css/reset.css";
+import "../src/assets/css/typography.css";
+import "../src/assets/css/layout.css";
+import "../src/assets/css/buttons.css";
+import "../src/assets/css/gallery.css";
+import "../src/assets/css/lists.css";
+import "../src/assets/css/utils.css";
+import "../src/assets/css/themes.css";
+import "../src/assets/css/media-queries.css";
 
+//Owned
 import React from "react";
 import Header from "./components/Header";
 import Profile from "./components/Profile";

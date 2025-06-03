@@ -5,7 +5,7 @@ export default function Profile() {
     <article className="profile">
       <img
         className="profilePicture"
-        src={`${process.env.PUBLIC_URL}/assets/img/profilePic.jpg`}
+        src={`https://github.com/brenoASantana.png`}
         alt="Foto de perfil"
       />
       <div className="profileText">
