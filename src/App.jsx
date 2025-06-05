@@ -1,4 +1,4 @@
-// CSS
+// Assets
 import "../src/assets/css/reset.css";
 import "../src/assets/css/typography.css";
 import "../src/assets/css/layout.css";
@@ -9,8 +9,10 @@ import "../src/assets/css/utils.css";
 import "../src/assets/css/themes.css";
 import "../src/assets/css/media-queries.css";
 
-//Owned
+//React
 import React from "react";
+
+//Owned
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 import About from "./components/About";
