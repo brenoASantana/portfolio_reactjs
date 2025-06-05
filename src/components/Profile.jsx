@@ -1,16 +1,18 @@
+// React
 import React from "react";
 
-import "../components/Profile.module.css";
+//Module CSS
+import styles from "./Profile.module.css";
 
 export default function Profile() {
   return (
-    <article className="profile">
+    <article className={styles.profile}>
       <img
-        className="profilePicture"
+        className={styles.profilePicture}
         src={`https://github.com/brenoASantana.png`}
         alt="Foto de perfil"
       />
-      <div className="profileText">
+      <div className={styles.profileText}>
         <h2>Breno Santana</h2>
         <p>
           <strong>Desenvolvedor Back-End Júnior</strong> & estudante de{" "}

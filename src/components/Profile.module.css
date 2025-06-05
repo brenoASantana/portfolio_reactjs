@@ -1,26 +1,22 @@
-img.profilePicture {
-  width: 120px; /* Tamanho levemente reduzido para foco em identificação */
-  height: 120px;
-  border-radius: 50%; /* Torna a imagem circular */
-  object-fit: cover; /* Garante que a imagem preencha sem distorcer */
-  border: 2px solid #ccc; /* Opcional: borda sutil para destaque */
-}
-
-.profile {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap; /* Para responsividade */
-  text-align: left;
-}
-
+/* Estilo da imagem de perfil */
 .profilePicture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* Foto circular */
-  object-fit: cover;
+  width: 150px;              /* Largura da imagem */
+  height: 150px;             /* Altura da imagem */
+  border-radius: 50%;        /* Deixa a imagem circular */
+  object-fit: cover;         /* Garante que a imagem preencha o espaço sem distorcer */
+  border: 2px solid #ccc;    /* Borda sutil para destacar a imagem */
 }
 
+/* Estilo do contêiner do perfil */
+.profile {
+  display: flex;             /* Organiza os elementos em linha */
+  align-items: center;       /* Alinha verticalmente ao centro */
+  gap: 1rem;                 /* Espaçamento entre a imagem e o texto */
+  flex-wrap: wrap;           /* Permite que os itens quebrem linha em telas menores */
+  text-align: left;          /* Alinha o texto à esquerda */
+}
+
+/* Estilo da seção de texto ao lado da imagem */
 .profileText {
-  flex: 1;
+  flex: 1;                   /* Ocupa o espaço restante disponível */
 }
