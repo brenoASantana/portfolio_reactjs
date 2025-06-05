@@ -1,12 +1,16 @@
-
-.about-skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  text-align: left;
-}
-
+/* Estilo compartilhado para as seções "Sobre" e "Habilidades" */
 .about,
 .skills {
-  flex: 1 1 300px;
+  flex: 1 1 300px;        /*
+                          flex-grow: 1    -> permite que o item cresça para ocupar o espaço disponível
+                          flex-shrink: 1  -> permite que o item encolha se o espaço for limitado
+                          flex-basis: 300px -> largura inicial mínima antes de quebrar para a próxima linha
+                         */
+}
+
+/* Estilo para listas não ordenadas */
+ul {
+  list-style-type: disc;    /* Define o marcador da lista como uma bolinha */
+  margin-left: 1.5rem;      /* Adiciona recuo à esquerda para alinhar os marcadores */
+  text-align: left;         /* Garante alinhamento do texto à esquerda */
 }

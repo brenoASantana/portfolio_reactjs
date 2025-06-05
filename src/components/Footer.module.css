@@ -1,3 +1,4 @@
-.social-link .material-symbols-outlined {
-  font-size: 2rem;
+/* Ícones dentro dos links sociais */
+.socialLink .materialSymbolsOutlined {
+  font-size: 2rem; /* Define o tamanho da fonte dos ícones (rem = relativo ao tamanho da fonte raiz) */
 }

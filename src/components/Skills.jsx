@@ -1,8 +1,10 @@
 import React from "react";
 
+import styles from './Skills.module.css';
+
 export default function Skills() {
   return (
-    <article className="skills">
+    <article className={styles.ul}>
       <h2>Habilidades e Competências</h2>
       <ul>
         <li>Java</li>

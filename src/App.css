@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* Contêiner geral que agrupa a seção "Sobre" e "Habilidades" */
+.aboutSkills {
+  display: flex; /* Organiza os elementos lado a lado (horizontalmente) */
+  flex-wrap: wrap; /* Permite que os elementos quebrem linha quando necessário */
+  gap: 2rem; /* Espaçamento entre os elementos */
+  text-align: left; /* Alinha o conteúdo de texto à esquerda */
+}

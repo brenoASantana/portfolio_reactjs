@@ -1,9 +1,6 @@
 // Assets
-import "../src/assets/css/reset.css";
-import "../src/assets/css/typography.css";
 import "../src/assets/css/layout.css";
 import "../src/assets/css/gallery.css";
-import "../src/assets/css/lists.css";
 import "../src/assets/css/media-queries.css";
 
 //React
@@ -18,6 +15,8 @@ import OngoingProjects from "./components/OngoingProjects";
 import Participations from "./components/Participations";
 import Footer from "./components/Footer";
 
+//CSS
+import styles from './App.css';
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
       <main>
         <Profile />
 
-        <section className="about-skills">
+        <section className={styles.aboutSkills}>
           <About />
           <Skills />
         </section>
