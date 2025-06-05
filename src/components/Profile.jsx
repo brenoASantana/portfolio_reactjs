@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../components/Profile.module.css";
+
 export default function Profile() {
   return (
     <article className="profile">

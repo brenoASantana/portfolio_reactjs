@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <footer>
       <h2>Contato</h2>
-       <p>Email: <a href="mailto:contatobrenosantana@outlook.com">contatobrenosantana@outlook.com</a></p>
        {/* Redes sociais */}
         <div className="social-links">
           <a
@@ -44,7 +43,6 @@ export default function Footer() {
           </a>
         </div>
       <p>&copy; {new Date().getFullYear()} Breno Santana. Todos os direitos reservados.</p>
-      <p>Desenvolvido por Breno Santana</p>
     </footer>
   );
 }
