@@ -1,8 +1,12 @@
+//React
 import React from "react";
+
+//CSS
+import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <article className="about">
+    <article className={styles}>
       <h2>Sobre Mim</h2>
       <p>
         Nascido em Volta Redonda e criado em Barra do Piraí, sempre fui movido

@@ -1,5 +1,4 @@
 // React
-import React from "react";
 
 // CSS
 import styles from "./Picture.module.css";
@@ -7,7 +6,7 @@ import styles from "./Picture.module.css";
 export default function Picture() {
   return (
     <div>
-      <ul className={styles.gallery}>
+      <ul className={styles.picture}>
         <li>
           <img
             src="https://github.com/brenoASantana/Historias_Mal_Contadas_DEMO/blob/main/assets/images/tela_inicial.png?raw=true"
@@ -34,7 +33,7 @@ export default function Picture() {
         </li>
       </ul>
 
-      <ul className={styles.gallery}>
+      <ul className={styles.picture}>
         <li>
           <img
             src="https://github.com/brenoASantana/kaching/blob/main/view/css/img/telaInicial.png?raw=true"

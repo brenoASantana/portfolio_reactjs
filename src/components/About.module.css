@@ -1,0 +1,6 @@
+.aboutSkills {
+  display: flex;           /* Elementos lado a lado */
+  flex-wrap: wrap;         /* Quebra de linha quando necessário */
+  gap: 2rem;               /* Espaçamento entre colunas */
+  text-align: left;        /* Alinha conteúdo textual à esquerda */
+}

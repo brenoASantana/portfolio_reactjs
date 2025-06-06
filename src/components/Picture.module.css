@@ -4,8 +4,8 @@
     font-size: 1.125rem;
   }
 }
-/* gallery de imagens */
-ul.gallery {
+/* picture de imagens */
+ul.picture {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -13,16 +13,15 @@ ul.gallery {
   padding: 0;
 }
 
-ul.gallery li {
+ul.picture li {
   width: 150px;
   height: 150px;
   overflow: hidden;
 }
 
-ul.gallery img {
+ul.picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
-

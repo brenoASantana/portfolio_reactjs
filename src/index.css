@@ -12,7 +12,7 @@ html, body {
 }
 
 /* Tipografia global */
-body {
+body,p {
   font-family: "Inter", sans-serif;     /* Fonte principal */
   text-align: center;                   /* Centraliza todo o texto */
   line-height: 1.5;                     /* Espaçamento entre linhas */
