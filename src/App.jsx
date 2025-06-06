@@ -1,8 +1,3 @@
-// Assets
-import "../src/assets/css/layout.css";
-import "../src/assets/css/gallery.css";
-import "../src/assets/css/media-queries.css";
-
 //React
 import React from "react";
 

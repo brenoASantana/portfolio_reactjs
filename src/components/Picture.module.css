@@ -1,3 +1,9 @@
+/* Ajustes para telas maiores */
+@media (min-width: 768px) {
+  body {
+    font-size: 1.125rem;
+  }
+}
 /* gallery de imagens */
 ul.gallery {
   list-style: none;

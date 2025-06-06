@@ -1,4 +1,18 @@
 /* Ícones dentro dos links sociais */
 .socialLink .materialSymbolsOutlined {
-  font-size: 2rem; /* Define o tamanho da fonte dos ícones (rem = relativo ao tamanho da fonte raiz) */
+  font-size: 2rem; /* Tamanho maior para destaque visual */
+}
+
+/* Estilo dos links sociais */
+.socialLinks a {
+  margin-left: 0.5rem;      /* Espaçamento entre os ícones */
+  font-size: 1.5rem;        /* Tamanho do texto/ícone */
+  color: inherit;           /* Herda a cor do pai (útil para temas claros/escuros) */
+  text-decoration: none;    /* Remove sublinhado */
+}
+
+/* Estilo geral do rodapé */
+footer {
+  background-color: #f9f9f9; /* Cor de fundo neutra */
+  padding: 1rem 0;           /* Espaçamento vertical interno */
 }
