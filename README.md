@@ -28,23 +28,6 @@ Cores principais:
 - ✅ **Redes sociais com ícones personalizados**
 - ✅ **Design responsivo** adaptável para mobile, tablet e desktop
 
-## 📁 Estrutura do Projeto
-
-```
-
-src/
-│
-├── components/
-│   ├── Footer.jsx
-│   ├── SocialLinks.jsx
-│   └── ...
-├── styles/
-│   └── Footer.module.css
-├── App.jsx
-└── index.js
-
-````
-
 A aplicação estará disponível em `http://localhost:3000`.
 
 ## 📬 Contato
