@@ -1,73 +1,64 @@
-# Getting Started with Create React App
+# Portfólio - Breno Santana
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar meus trabalhos, experiências e contatos de forma profissional e visualmente agradável.
 
-## Available Scripts
+## ✨ Tecnologias Utilizadas
 
-In the project directory, you can run:
+- [ReactJS](https://reactjs.org/)
+- [Swiper.js](https://swiperjs.com/) — utilizado para criar o carrossel de projetos
+- CSS Modules para estilização
+- HTML5 & CSS3 responsivos
 
-### `npm start`
+## 🎨 Paleta de Cores
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O design do portfólio foi inspirado nesta paleta:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔗 [https://colorhunt.co/palette/180a0a711a75f10086f582a7](https://colorhunt.co/palette/180a0a711a75f10086f582a7)
 
-### `npm test`
+Cores principais:
+- `#180A0A` – Preto escuro (background/contraste)
+- `#711A75` – Roxo profundo (detalhes e títulos)
+- `#F10086` – Rosa vibrante (realces e ícones)
+- `#F582A7` – Rosa claro (tons de apoio)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📸 Funcionalidades
 
-### `npm run build`
+- ✅ Seção de **projetos em carrossel** com navegação por botões e paginação
+- ✅ **Participações e experiências** exibidas em cards
+- ✅ **Redes sociais com ícones personalizados**
+- ✅ **Design responsivo** adaptável para mobile, tablet e desktop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Estrutura do Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+src/
+│
+├── components/
+│   ├── Footer.jsx
+│   ├── SocialLinks.jsx
+│   └── ...
+├── styles/
+│   └── Footer.module.css
+├── App.jsx
+└── index.js
 
-### `npm run eject`
+````
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A aplicação estará disponível em `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📬 Contato
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Você pode me encontrar em:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* [Instagram](https://instagram.com/brenoasantana)
+* [LinkedIn](https://linkedin.com/in/brenoasantana)
+* [GitHub](https://github.com/brenoasantana)
+* [Email](mailto:contatobrenosantana@outlook.com)
+* [Linktree](https://linktr.ee/brenoasantana)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧠 **Sinta-se à vontade para sugerir melhorias ou contribuir!**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-Paleta de cores:
-https://colorhunt.co/palette/180a0a711a75f10086f582a7
+```
