@@ -1,21 +1,28 @@
+/* Seção de Participações */
+
 .participations {
   margin: 2rem 0;
   padding: 2rem;
   border-radius: 16px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .participations h2 {
-  color: #F10086;
+  color: #F10086; /* Rosa vibrante */
   text-align: center;
   margin-bottom: 2rem;
 }
 
+/* Grid responsivo dos cards */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
 
+/* Estilo dos cards */
 .grid article {
   background: #711A75; /* Fundo roxo escuro */
   padding: 1rem;
@@ -31,9 +38,10 @@
 
 .grid article:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 16px rgba(241, 0, 134, 0.3); /* Rosa vibrante */
+  box-shadow: 0 4px 16px rgba(241, 0, 134, 0.3); /* Rosa vibrante no hover */
 }
 
+/* Imagens dos cards */
 .grid img {
   width: 100%;
   max-width: 250px;
@@ -44,6 +52,18 @@
   border: 2px solid #F10086; /* Borda rosa vibrante */
 }
 
+/* Texto em destaque dentro dos cards */
 .grid strong {
-  color: #F10086; /* Destaque em rosa forte */
+  color: #F10086; /* Rosa forte para destaque */
+}
+
+/* Responsividade adicional para telas pequenas */
+@media (max-width: 600px) {
+  .participations {
+    padding: 1rem;
+  }
+
+  .grid img {
+    max-width: 200px;
+  }
 }
