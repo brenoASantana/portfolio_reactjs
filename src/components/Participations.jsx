@@ -52,7 +52,7 @@ export default function Participations() {
     {
       title: "Desafio de Engenharia de Software Kraft Baterias EntregPag",
       imgSrc:
-        "https://media.licdn.com/dms/image/v2/D4D2DAQE0OuZnJFulsg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728578433849?e=1749567600&v=beta&t=aCOceCRGsMRU8rcTgf_uR-V0i4oFKaNV0mVXtOioX8A",
+        "https://media.licdn.com/dms/image/v2/D4D2DAQE0OuZnJFulsg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1728578433849?e=1750204800&v=beta&t=2rXFzn4uYSA3njFYrWulYcvr8Wbps5fTsymI6xQO4jA",
       alt: "Foto do Desafio Kraft",
       description: (
         <>
