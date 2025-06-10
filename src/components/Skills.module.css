@@ -1,16 +1,41 @@
 /* Estilo compartilhado para as seções "Sobre" e "Habilidades" */
 .about,
 .skills {
-  flex: 1 1 300px;        /*
-                          flex-grow: 1    -> permite que o item cresça para ocupar o espaço disponível
-                          flex-shrink: 1  -> permite que o item encolha se o espaço for limitado
-                          flex-basis: 300px -> largura inicial mínima antes de quebrar para a próxima linha
-                         */
+  flex: 1 1 300px; /* Controla como a seção se comporta ao lado da outra */
+
+  /* Centraliza o conteúdo DENTRO de cada seção */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* Opcional: Adiciona um espaço entre o título e a lista */
 }
 
 /* Estilo para listas não ordenadas */
 ul {
-  list-style-type: disc;    /* Define o marcador da lista como uma bolinha */
-  margin-left: 1.5rem;      /* Adiciona recuo à esquerda para alinhar os marcadores */
-  text-align: left;         /* Garante alinhamento do texto à esquerda */
+  list-style-type: disc; /* Define o marcador da lista como uma bolinha */
+  padding: 0; /* Remove o recuo padrão do navegador */
+  margin: 0; /* Remove a margem padrão do navegador */
+  text-align: center; /* Alinha o texto à esquerda do marcador, para melhor leitura */
+  max-width: 250px; /* Opcional: evita que a lista fique excessivamente larga */
+}
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* li::marker {
+  content: '⭐';
+} */
+
+.paragraph {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column ;
+  max-width: 250px; /* Opcional: evita que a lista fique excessivamente larga */
+}
+
+.paragraph > p {
+  margin: 0;
 }

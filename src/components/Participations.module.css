@@ -1,11 +1,49 @@
 .participations {
   margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.participations h2 {
+  color: #F10086;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .grid {
-  width: 200px;
-  height: 200px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.grid article {
+  background: #711A75; /* Fundo roxo escuro */
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #F582A7; /* Texto em rosa claro */
+  transition: transform 0.2s ease;
+}
+
+.grid article:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(241, 0, 134, 0.3); /* Rosa vibrante */
+}
+
+.grid img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  border: 2px solid #F10086; /* Borda rosa vibrante */
+}
+
+.grid strong {
+  color: #F10086; /* Destaque em rosa forte */
 }

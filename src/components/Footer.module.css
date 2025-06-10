@@ -1,18 +1,25 @@
-/* Ícones dentro dos links sociais */
-.socialLink .materialSymbolsOutlined {
-  font-size: 2rem; /* Tamanho maior para destaque visual */
+/* Estilo geral do rodapé */
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  color: #F582A7; /* Texto em rosa claro para contraste */
+  border-top: 2px solid #711A75; /* Linha superior decorativa */
 }
 
 /* Estilo dos links sociais */
 .socialLinks a {
-  margin-left: 0.5rem;      /* Espaçamento entre os ícones */
-  font-size: 1.5rem;        /* Tamanho do texto/ícone */
-  color: inherit;           /* Herda a cor do pai (útil para temas claros/escuros) */
-  text-decoration: none;    /* Remove sublinhado */
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: #F10086; /* Rosa vibrante */
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-/* Estilo geral do rodapé */
-footer {
-  background-color: #f9f9f9; /* Cor de fundo neutra */
-  padding: 1rem 0;           /* Espaçamento vertical interno */
+.socialLinks a:hover {
+  color: #F582A7; /* Rosa claro no hover */
+}
+
+/* Ícones dentro dos links sociais */
+.socialLink .materialSymbolsOutlined {
+  font-size: 2rem;
 }

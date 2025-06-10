@@ -1,38 +1,66 @@
-.App {
+/* ==========================================================================
+   Estilos Globais e Paleta de Cores
+   ========================================================================== */
+
+/* Reset básico e fundo com degradê */
+html {
+  min-height: 100%; /* Garante que o degradê cubra a tela toda */
+}
+
+body {
+  /* Fundo com degradê usando os tons escuros da paleta */
+  background-color: #180A0A; /* Cor de fallback caso o degradê não carregue */
+  background-image: linear-gradient(180deg, #180A0A 0%, #711A75 100%);
+
+  margin: 0;
+  padding: 50px; /* Espaçamento interno principal */
+  box-sizing: border-box;
+}
+
+/* Tipografia global */
+body, p {
+  color: #E0E0E0; /* Branco levemente acinzentado para conforto visual */
+  font-family: "Inter", sans-serif;
   text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Títulos principais */
+h1,
+h2 {
+  color: #F10086; /* Rosa vibrante para máximo destaque */
+  font-family: "Pixelify Sans", sans-serif;
+  text-align: center;
+  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5); /* Sombra para destacar no fundo escuro */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Links e destaques */
+a, strong {
+  color: #F582A7; /* Rosa claro para links e textos em negrito */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* ==========================================================================
+   Layout dos Componentes
+   ========================================================================== */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Container para alinhar as seções Sobre e Skills lado a lado */
+.aboutSkillsContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  gap: 2rem; /* Espaçamento entre as duas colunas */
+  flex-wrap: wrap; /* Permite que quebrem a linha em telas menores */
+
+  /* Adiciona um espaço acima e abaixo da seção */
+  margin: 4rem 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Faz com que cada componente (About e Skills) ocupe um espaço flexível */
+.aboutSkillsContainer > * {
+  flex: 1;
+  min-width: 300px; /* Largura mínima antes de quebrar a linha */
 }

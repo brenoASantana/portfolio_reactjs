@@ -1,9 +1,53 @@
+/* Estilos existentes do seu componente */
 .projects {
   margin: 2rem 0;
+
+  /* Adicionado: Variáveis de cor para os ícones do Swiper */
+  --swiper-navigation-color: #F10086; /* Cor das setas */
+  --swiper-pagination-color: #F10086;  /* Cor da bolinha de paginação ativa */
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
+  /* Você pode manter este grid se precisar, ou remover se cada projeto
+     for um item separado na vertical. Para o carrossel, ele não é essencial. */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem; /* Aumentei um pouco o gap para dar mais respiro */
+}
+
+
+/* =============================================== */
+/* Estilos para o Carrossel (Swiper)          */
+/* =============================================== */
+
+/* Estilo para as bolinhas de paginação INATIVAS.
+  Usamos :global() para atingir as classes da biblioteca Swiper.
+*/
+.projects :global(.swiper-pagination-bullet) {
+  background: #F10086;
+  opacity: 0.5; /* Deixa a bolinha inativa mais fraca */
+}
+
+/* Estilo para a bolinha de paginação ATIVA.
+*/
+.projects :global(.swiper-pagination-bullet-active) {
+  opacity: 1; /* Opacidade total para a bolinha selecionada */
+}
+
+/*
+  Ajuste opcional no tamanho das setas.
+*/
+.projects :global(.swiper-button-next),
+.projects :global(.swiper-button-prev) {
+  width: 30px;
+  height: 30px;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+  max-height: 300px; /* Ajuste esse valor conforme necessário */
+  object-fit: contain; /* Mantém a imagem inteira, sem cortar */
+  display: block;
+  margin: 0 auto;
 }
