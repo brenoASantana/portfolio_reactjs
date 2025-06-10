@@ -9,11 +9,11 @@
 
 /* Estilo do contêiner do perfil */
 .profile {
-  display: flex;             /* Organiza os elementos em linha */
-  align-items: center;       /* Alinha verticalmente ao centro */
-  gap: 1rem;                 /* Espaçamento entre a imagem e o texto */
-  flex-wrap: wrap;           /* Permite que os itens quebrem linha em telas menores */
-  text-align: left;          /* Alinha o texto à esquerda */
+  display: flex;             /* Organiza os elementos em um container flexível */
+  flex-direction: column;    /* Empilha os itens verticalmente */
+  align-items: center;       /* Alinha a imagem e o bloco de texto no centro (horizontalmente) */
+  gap: 1rem;                 /* Espaçamento de 16px entre a imagem e o texto */
+  text-align: center;        /* Opcional: Centraliza o H2 e o parágrafo */
 }
 
 /* Estilo da seção de texto ao lado da imagem */
