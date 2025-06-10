@@ -1,16 +1,17 @@
 /* Seção de Participações */
-
 .participations {
   margin: 2rem 0;
   padding: 2rem;
   border-radius: 16px;
   display: flex;
-  align-items: baseline;
   flex-direction: column;
+  align-items: center; /* ← ESTA É A CORREÇÃO */
 }
 
+/* O título agora será centralizado pelo flex container,
+   mas manter text-align não prejudica. */
 .participations h2 {
-  color: #F10086; /* Rosa vibrante */
+  color: #F10086;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -20,11 +21,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
+  width: 100%; /* Garante que o grid ocupe todo o espaço disponível */
 }
 
 /* Estilo dos cards */
 .grid article {
-  background: #711A75; /* Fundo roxo escuro */
+  background: #711A75;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
@@ -32,13 +34,13 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: #F582A7; /* Texto em rosa claro */
-  transition: transform 0.2s ease;
+  color: #F582A7;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Adicionada transição para o shadow */
 }
 
 .grid article:hover {
   transform: scale(1.02);
-  box-shadow: 0 4px 16px rgba(241, 0, 134, 0.3); /* Rosa vibrante no hover */
+  box-shadow: 0 4px 16px rgba(241, 0, 134, 0.3);
 }
 
 /* Imagens dos cards */
@@ -49,12 +51,12 @@
   border-radius: 8px;
   margin-bottom: 1rem;
   object-fit: cover;
-  border: 2px solid #F10086; /* Borda rosa vibrante */
+  border: 2px solid #F10086;
 }
 
 /* Texto em destaque dentro dos cards */
 .grid strong {
-  color: #F10086; /* Rosa forte para destaque */
+  color: #F10086;
 }
 
 /* Responsividade adicional para telas pequenas */
